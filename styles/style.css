@@ -1,0 +1,215 @@
+.resume-button, .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introduction-section {
+  height: 600px;
+  width: 100%;
+  background-image: url("/images/collection_category_behind_the_code.jpg");
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font: 100% Poppins, sans-serif bold, color red;
+  text-align: center;
+  font-size: 50px;
+  color: #0c0c0c;
+}
+
+.resume-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.introduction-section > p {
+  font-size: 20px;
+}
+
+.port-text {
+  font-family: Poppins, sans-serif;
+  font: Poppins, sans-serif, medium;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.project {
+  width: 100%;
+  height: 250px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  height: 700px;
+}
+
+.projects {
+  padding: 5px;
+  margin: 5px;
+}
+
+.project {
+  opacity: 0.6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 5px solid;
+  border-color: red;
+}
+
+.project:hover {
+  opacity: 1;
+}
+
+.res:hover {
+  background-color: green;
+}
+
+.future {
+  height: 400px;
+  background-color: red;
+}
+
+.p-text {
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 25px;
+  font: bold;
+}
+
+.about {
+  padding: 20px;
+}
+
+.navbar {
+  height: 30px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 50px;
+  background-color: darkgrey;
+}
+
+.nav-items {
+  font-size: 20px;
+  color: #080808;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: red;
+  height: 500px;
+}
+
+.about {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-style: bold;
+}
+
+.res {
+  font-family: Poppins, sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: #2477f3;
+          box-shadow: #2477f3;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+.outro {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+
+.icons {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.about-text {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-style: bold;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.tech-image {
+  height: 150px;
+  width: 150px;
+  padding-right: 20px;
+}
+
+.tech-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
